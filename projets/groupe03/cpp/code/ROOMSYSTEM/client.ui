@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>client</class>
+ <widget class="QWidget" name="client">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>864</width>
+    <height>593</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:qradialgradient(spread:reflect, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(27, 58, 249, 255), stop:1 rgba(255, 255, 255, 255))</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>881</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:black;
+qproperty-alignment:'AlignCenter';
+font: 900 24pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>MANAGEROOM X V2.0.2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>261</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:black;
+qproperty-alignment:'AlignCenter';
+font: 900 12pt &quot;Segoe UI&quot;;
+background-color:white;</string>
+   </property>
+   <property name="text">
+    <string>interface client</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnReserve">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>140</y>
+     <width>391</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:red;
+color:white;
+font: 900 16pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>RESERVER UNE SALLE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnVoir">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>288</y>
+     <width>391</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:red;
+color:white;
+font: 900 16pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>MES RESERVATIONS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnDisponible">
+   <property name="geometry">
+    <rect>
+     <x>532</x>
+     <y>138</y>
+     <width>291</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:red;
+color:white;
+font: 900 16pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>SALLES DISPONIBLES</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>120</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:blue;
+color:black;
+font: 900 20pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>&lt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

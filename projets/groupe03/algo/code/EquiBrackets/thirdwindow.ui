@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>thirdwindow</class>
+ <widget class="QWidget" name="thirdwindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1316</width>
+    <height>612</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(60, 48, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>0</y>
+     <width>1311</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">qproperty-alignment:'AlignCenter';
+font: 900 20pt &quot;Segoe UI&quot;;
+color:white;</string>
+   </property>
+   <property name="text">
+    <string>EQUIBRACKET V2.0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblSessionId">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>110</y>
+     <width>1311</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>   ID DE SESSION: </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>270</y>
+     <width>1311</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">qproperty-alignment:'AlignCenter';
+background-color:white;
+font: 900 italic 8pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>entrer le texte dont vous voulez verifier s'il s'agit d'une expression a parentheses equilibrees ici</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textExpression">
+   <property name="geometry">
+    <rect>
+     <x>-7</x>
+     <y>300</y>
+     <width>1321</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;
+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnConfirm">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>490</y>
+     <width>361</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:blue;
+color:white;
+font: 900 9pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>confirmer vouloir verifier</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnQuit1">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>490</y>
+     <width>401</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:blue;
+color:white;
+font: 900 9pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

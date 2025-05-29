@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>secondwindow</class>
+ <widget class="QWidget" name="secondwindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>781</width>
+    <height>616</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:qradialgradient(spread:reflect, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(27, 58, 249, 255), stop:1 rgba(255, 255, 255, 255))</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>791</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">qproperty-alignment:'AlignCenter';
+color:black;
+font: 900 18pt &quot;Segoe UI&quot;;
+font: 900 24pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>MANAGEROOM X V2.0.2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>129</y>
+     <width>781</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;Votre sécurité est notre priorité. &lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;Nous nous engageons à:&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;-Assurer la confidentialité de toutes les données personnelles que vous nous fournissez&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;-Garantir la transparence sur l'utilisation de ces informations: aucune donnée ne sera utilisée à des fins non&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;déclarées.Vos informations seront utlisées uniquement dans le cadre d'identifcation des statuts d'utilisateur &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;et des utilisateurs effectuant une demande de réservation ou d'autres requetes liées aux demandes de salle&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;et statuts d'utilisateur&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;-Protéger vos informations grace à des protocoles de sécurité avancés.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Assurez vous que vos informations restent personnelles&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;Pour continuer , vous devez accepter nos conditions d'utilisation:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="lblcheckBox1">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>530</y>
+     <width>761</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>J'accepte que l'application collecte et utilise mes données uniquement dans le cadre de son fonctionnement</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="lblcheckBox2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>560</y>
+     <width>761</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Je m'engage à ne jamais utiliser des informations d'un autre utilisateur sous peine d'exclusion de la plateforme</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnContinue">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>590</y>
+     <width>181</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:blue;
+color:white;</string>
+   </property>
+   <property name="text">
+    <string>continuer</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblCharge">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>590</y>
+     <width>181</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">qproperty-alignment:'AlignCenter';
+font: 700 italic 9pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
